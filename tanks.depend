@@ -1,0 +1,1463 @@
+# depslib dependency file v1.0
+1445260382 source:c:\temp\inod\framework_tanks\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1445260076 c:\temp\inod\framework_tanks\entity.h
+	"Sprite.h"
+
+1445872901 c:\temp\inod\framework_tanks\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1445872075 c:\temp\inod\framework_tanks\float2.h
+	<math.h>
+
+1341010374 c:\program files (x86)\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1341010370 c:\program files (x86)\codeblocks\mingw\include\_mingw.h
+
+1444653438 c:\temp\inod\framework_tanks\texture2d.h
+
+1445871617 source:c:\temp\inod\framework_tanks\float2.cpp
+	"float2.h"
+
+1445873397 source:c:\temp\inod\framework_tanks\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	"Sprite.h"
+	"Entity.h"
+	"Player.h"
+	"ResourceFactory.h"
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winerror.h
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files (x86)\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnterr.h
+
+1341010372 c:\program files (x86)\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files (x86)\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files (x86)\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files (x86)\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341010376 c:\program files (x86)\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files (x86)\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files (x86)\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files (x86)\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1451210151 c:\program files (x86)\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files (x86)\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1445257191 c:\temp\inod\framework_tanks\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1445258542 source:c:\temp\inod\framework_tanks\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1445873322 source:c:\temp\inod\framework_tanks\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1444653438 source:c:\temp\inod\framework_tanks\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1445868891 source:c:\temp\inod\framework_tanks\tank.cpp
+	"Tank.h"
+
+1445868803 c:\temp\inod\framework_tanks\tank.h
+	"Entity.h"
+
+1445873415 source:c:\temp\inod\framework_tanks\player.cpp
+	"Player.h"
+
+1445870745 c:\temp\inod\framework_tanks\player.h
+	"Tank.h"
+
+1445260384 source:c:\temp\inod_st\framework_tanks\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447081642 c:\temp\inod_st\framework_tanks\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1445872902 c:\temp\inod_st\framework_tanks\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1447082626 c:\temp\inod_st\framework_tanks\float2.h
+	<math.h>
+
+1444653440 c:\temp\inod_st\framework_tanks\texture2d.h
+
+1447082709 source:c:\temp\inod_st\framework_tanks\float2.cpp
+	"float2.h"
+
+1447082334 source:c:\temp\inod_st\framework_tanks\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+
+1445870746 c:\temp\inod_st\framework_tanks\player.h
+	"Tank.h"
+
+1445868804 c:\temp\inod_st\framework_tanks\tank.h
+	"Entity.h"
+
+1445257192 c:\temp\inod_st\framework_tanks\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1447078852 source:c:\temp\inod_st\framework_tanks\player.cpp
+	"Player.h"
+
+1445258544 source:c:\temp\inod_st\framework_tanks\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1445868892 source:c:\temp\inod_st\framework_tanks\tank.cpp
+	"Tank.h"
+
+1444653440 source:c:\temp\inod_st\framework_tanks\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1447078720 source:c:\temp\inod_st\framework_tanks\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1447080073 source:c:\temp\inod_st\framework_tanks\componentmanager.cpp
+	"ComponentManager.h"
+
+1447080859 c:\temp\inod_st\framework_tanks\componentmanager.h
+	<iostream>
+	<list>
+
+1447082764 source:c:\temp\inod_st\framework_tanks\enemy.cpp
+	"Enemy.h"
+
+1447081318 c:\temp\inod_st\framework_tanks\enemy.h
+	"Tank.h"
+
+1447080074 source:f:\framework_tanks_151109\componentmanager.cpp
+	"ComponentManager.h"
+
+1447080860 f:\framework_tanks_151109\componentmanager.h
+	<iostream>
+	<list>
+
+1447082766 source:f:\framework_tanks_151109\enemy.cpp
+	"Enemy.h"
+
+1447081320 f:\framework_tanks_151109\enemy.h
+	"Tank.h"
+
+1445868804 f:\framework_tanks_151109\tank.h
+	"Entity.h"
+
+1447081644 f:\framework_tanks_151109\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1445872902 f:\framework_tanks_151109\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1447682012 f:\framework_tanks_151109\float2.h
+	<math.h>
+
+1444653440 f:\framework_tanks_151109\texture2d.h
+
+1445260384 source:f:\framework_tanks_151109\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:f:\framework_tanks_151109\float2.cpp
+	"float2.h"
+
+1447082816 source:f:\framework_tanks_151109\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+
+1445870746 f:\framework_tanks_151109\player.h
+	"Tank.h"
+
+1445257192 f:\framework_tanks_151109\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1447078854 source:f:\framework_tanks_151109\player.cpp
+	"Player.h"
+
+1445258544 source:f:\framework_tanks_151109\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1447078722 source:f:\framework_tanks_151109\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1445868892 source:f:\framework_tanks_151109\tank.cpp
+	"Tank.h"
+
+1444653440 source:f:\framework_tanks_151109\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1447080074 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\componentmanager.cpp
+	"ComponentManager.h"
+
+1447080860 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\componentmanager.h
+	<iostream>
+	<list>
+
+1447082766 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\enemy.cpp
+	"Enemy.h"
+
+1447081320 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\enemy.h
+	"Tank.h"
+
+1445868804 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\tank.h
+	"Entity.h"
+
+1447081644 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1445872902 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1447682012 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\float2.h
+	<math.h>
+
+1444657040 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\texture2d.h
+
+1445263984 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\float2.cpp
+	"float2.h"
+
+1447082816 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+
+1445870746 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\player.h
+	"Tank.h"
+
+1445260792 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1447078854 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\player.cpp
+	"Player.h"
+
+1445262144 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1447078722 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1445868892 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\tank.cpp
+	"Tank.h"
+
+1444657040 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_tanks_151109\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1452547496 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\componentmanager.cpp
+	"ComponentManager.h"
+
+1452550602 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\componentmanager.h
+	<iostream>
+	<list>
+
+1452620064 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\enemy.cpp
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+
+1452619434 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\enemy.h
+	"Tank.h"
+
+1445868804 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\tank.h
+	"Entity.h"
+
+1452549495 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115675 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1452548268 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\float2.h
+	<math.h>
+
+1444657040 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\texture2d.h
+
+1452549543 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\float2.cpp
+	"float2.h"
+
+1452618956 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1452617582 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\player.h
+	"Tank.h"
+
+1445260792 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452619703 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1445262144 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615433 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1445868892 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\tank.cpp
+	"Tank.h"
+
+1444657040 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1452535038 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\terrain.h
+	<vector>
+	"Sprite.h"
+
+1452617407 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1452619583 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1452533070 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\bullet.h
+	"Entity.h"
+
+1452614999 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\spritetext.h
+	"Sprite.h"
+	<string>
+
+1452615216 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\framework_angry_birds\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1453066587 source:c:\users\kasia\desktop\framework_angry_birds\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1452533072 c:\users\kasia\desktop\framework_angry_birds\bullet.h
+	"Entity.h"
+
+1452549496 c:\users\kasia\desktop\framework_angry_birds\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115676 c:\users\kasia\desktop\framework_angry_birds\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1452548270 c:\users\kasia\desktop\framework_angry_birds\float2.h
+	<math.h>
+
+1444657040 c:\users\kasia\desktop\framework_angry_birds\texture2d.h
+
+1452550604 c:\users\kasia\desktop\framework_angry_birds\componentmanager.h
+	<iostream>
+	<list>
+
+1445260792 c:\users\kasia\desktop\framework_angry_birds\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452535040 c:\users\kasia\desktop\framework_angry_birds\terrain.h
+	<vector>
+	"Sprite.h"
+
+1452795372 c:\users\kasia\desktop\framework_angry_birds\enemy.h
+	"Tank.h"
+
+1445868804 c:\users\kasia\desktop\framework_angry_birds\tank.h
+	"Entity.h"
+
+1452547498 source:c:\users\kasia\desktop\framework_angry_birds\componentmanager.cpp
+	"ComponentManager.h"
+
+1453107774 source:c:\users\kasia\desktop\framework_angry_birds\enemy.cpp
+	<windows.h>
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+
+1452549544 source:c:\users\kasia\desktop\framework_angry_birds\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:c:\users\kasia\desktop\framework_angry_birds\float2.cpp
+	"float2.h"
+
+1452619704 source:c:\users\kasia\desktop\framework_angry_birds\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1452712516 c:\users\kasia\desktop\framework_angry_birds\player.h
+	"Tank.h"
+
+1445262144 source:c:\users\kasia\desktop\framework_angry_birds\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615434 source:c:\users\kasia\desktop\framework_angry_birds\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1452795898 source:c:\users\kasia\desktop\framework_angry_birds\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1452795898 c:\users\kasia\desktop\framework_angry_birds\spritetext.h
+	"Sprite.h"
+	<string>
+
+1445868892 source:c:\users\kasia\desktop\framework_angry_birds\tank.cpp
+	"Tank.h"
+
+1453107762 source:c:\users\kasia\desktop\framework_angry_birds\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1444657040 source:c:\users\kasia\desktop\framework_angry_birds\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1453066784 source:c:\users\kasia\desktop\framework_angry_birds\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1452707902 source:d:\framework_angry_birds\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1301111162 c:\program files\codeblocks\mingw\include\windows.h
+	<winresrc.h>
+	<stdarg.h>
+	<windef.h>
+	<wincon.h>
+	<winbase.h>
+	<wingdi.h>
+	<winuser.h>
+	<winnls.h>
+	<winver.h>
+	<winnetwk.h>
+	<winreg.h>
+	<winsvc.h>
+	<cderr.h>
+	<dde.h>
+	<ddeml.h>
+	<dlgs.h>
+	<imm.h>
+	<lzexpand.h>
+	<mmsystem.h>
+	<nb30.h>
+	<rpc.h>
+	<shellapi.h>
+	<winperf.h>
+	<commdlg.h>
+	<winspool.h>
+	<winsock2.h>
+	<winsock.h>
+	<ole2.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winresrc.h
+	<winuser.h>
+	<winnt.h>
+	<winver.h>
+	<dde.h>
+	<dlgs.h>
+	<commctrl.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\winuser.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnt.h
+	<winerror.h>
+	<string.h>
+	<basetsd.h>
+	<pshpack4.h>
+	<poppack.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winerror.h
+
+1341006776 c:\program files\codeblocks\mingw\include\string.h
+	<_mingw.h>
+	<stddef.h>
+
+1341006770 c:\program files\codeblocks\mingw\include\_mingw.h
+
+1301111148 c:\program files\codeblocks\mingw\include\basetsd.h
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack4.h
+
+1301111156 c:\program files\codeblocks\mingw\include\poppack.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winver.h
+
+1301111148 c:\program files\codeblocks\mingw\include\dde.h
+
+1301111150 c:\program files\codeblocks\mingw\include\dlgs.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commctrl.h
+	<prsht.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\prsht.h
+
+1301111162 c:\program files\codeblocks\mingw\include\windef.h
+	<winnt.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\wincon.h
+
+1301111160 c:\program files\codeblocks\mingw\include\winbase.h
+
+1301111162 c:\program files\codeblocks\mingw\include\wingdi.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnls.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winnetwk.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winreg.h
+
+1301111164 c:\program files\codeblocks\mingw\include\winsvc.h
+
+1301111148 c:\program files\codeblocks\mingw\include\cderr.h
+
+1301111148 c:\program files\codeblocks\mingw\include\ddeml.h
+
+1301111150 c:\program files\codeblocks\mingw\include\imm.h
+
+1301111154 c:\program files\codeblocks\mingw\include\lzexpand.h
+
+1301111154 c:\program files\codeblocks\mingw\include\mmsystem.h
+
+1301111154 c:\program files\codeblocks\mingw\include\nb30.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpc.h
+	<windows.h>
+	<rpcdce.h>
+	<rpcnsi.h>
+	<rpcnterr.h>
+	<winerror.h>
+	<excpt.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdce.h
+	<basetyps.h>
+	<rpcdcep.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\basetyps.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcdcep.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsi.h
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnterr.h
+
+1341006772 c:\program files\codeblocks\mingw\include\excpt.h
+	<_mingw.h>
+	<windef.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\shellapi.h
+	<pshpack2.h>
+	<poppack.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\pshpack2.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winperf.h
+
+1301111148 c:\program files\codeblocks\mingw\include\commdlg.h
+	<unknwn.h>
+	<prsht.h>
+
+1301111160 c:\program files\codeblocks\mingw\include\unknwn.h
+	<windows.h>
+	<objfwd.h>
+	<wtypes.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objfwd.h
+	<basetyps.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\wtypes.h
+	<rpc.h>
+	<rpcndr.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcndr.h
+	<rpcnsip.h>
+	<objfwd.h>
+
+1301111158 c:\program files\codeblocks\mingw\include\rpcnsip.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winspool.h
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock2.h
+	<windows.h>
+
+1301111162 c:\program files\codeblocks\mingw\include\winsock.h
+	<windows.h>
+	<mswsock.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\mswsock.h
+
+1301111156 c:\program files\codeblocks\mingw\include\ole2.h
+	<winerror.h>
+	<objbase.h>
+	<olectlid.h>
+	<oleauto.h>
+	<oleidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\objbase.h
+	<rpc.h>
+	<rpcndr.h>
+	<stdlib.h>
+	<basetyps.h>
+	<wtypes.h>
+	<unknwn.h>
+	<objidl.h>
+	<cguid.h>
+
+1341006776 c:\program files\codeblocks\mingw\include\stdlib.h
+	<_mingw.h>
+	<stddef.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\objidl.h
+	<objfwd.h>
+
+1301111148 c:\program files\codeblocks\mingw\include\cguid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\olectlid.h
+
+1301111156 c:\program files\codeblocks\mingw\include\oleauto.h
+	<oaidl.h>
+
+1301111154 c:\program files\codeblocks\mingw\include\oaidl.h
+	<windows.h>
+	<ole2.h>
+
+1301111156 c:\program files\codeblocks\mingw\include\oleidl.h
+	<objfwd.h>
+
+1452533072 d:\framework_angry_birds\bullet.h
+	"Entity.h"
+
+1452549496 d:\framework_angry_birds\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115676 d:\framework_angry_birds\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1452548270 d:\framework_angry_birds\float2.h
+	<math.h>
+
+1341006774 c:\program files\codeblocks\mingw\include\math.h
+	<_mingw.h>
+
+1444653440 d:\framework_angry_birds\texture2d.h
+
+1452550604 d:\framework_angry_birds\componentmanager.h
+	<iostream>
+	<list>
+
+1445257192 d:\framework_angry_birds\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452535040 d:\framework_angry_birds\terrain.h
+	<vector>
+	"Sprite.h"
+
+1452795372 d:\framework_angry_birds\enemy.h
+	"Tank.h"
+
+1445868804 d:\framework_angry_birds\tank.h
+	"Entity.h"
+
+1452547498 source:d:\framework_angry_birds\componentmanager.cpp
+	"ComponentManager.h"
+
+1452795372 source:d:\framework_angry_birds\enemy.cpp
+	<windows.h>
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+
+1452549544 source:d:\framework_angry_birds\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:d:\framework_angry_birds\float2.cpp
+	"float2.h"
+
+1452796094 source:d:\framework_angry_birds\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1421504087 c:\program files\codeblocks\mingw\include\gl\glut.h
+	<windows.h>
+	<GL/gl.h>
+	<GL/glu.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1452712516 d:\framework_angry_birds\player.h
+	"Tank.h"
+
+1452795898 d:\framework_angry_birds\spritetext.h
+	"Sprite.h"
+	<string>
+
+1452619704 source:d:\framework_angry_birds\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1445258544 source:d:\framework_angry_birds\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615434 source:d:\framework_angry_birds\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1452795898 source:d:\framework_angry_birds\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1445868892 source:d:\framework_angry_birds\tank.cpp
+	"Tank.h"
+
+1452711966 source:d:\framework_angry_birds\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1444653440 source:d:\framework_angry_birds\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1453478308 source:d:\zaliczenie_gra\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1452533072 d:\zaliczenie_gra\bullet.h
+	"Entity.h"
+
+1453485436 d:\zaliczenie_gra\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115676 d:\zaliczenie_gra\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1453485462 d:\zaliczenie_gra\float2.h
+	<math.h>
+
+1444657040 d:\zaliczenie_gra\texture2d.h
+
+1452550604 d:\zaliczenie_gra\componentmanager.h
+	<iostream>
+	<list>
+
+1445260792 d:\zaliczenie_gra\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452535040 d:\zaliczenie_gra\terrain.h
+	<vector>
+	"Sprite.h"
+
+1453480508 d:\zaliczenie_gra\enemy.h
+	"Tank.h"
+
+1445868804 d:\zaliczenie_gra\tank.h
+	"Entity.h"
+
+1452547498 source:d:\zaliczenie_gra\componentmanager.cpp
+	"ComponentManager.h"
+
+1453480508 source:d:\zaliczenie_gra\enemy.cpp
+	<windows.h>
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+	"Entity.h"
+	"Tank.h"
+
+1453478760 source:d:\zaliczenie_gra\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:d:\zaliczenie_gra\float2.cpp
+	"float2.h"
+
+1453481540 source:d:\zaliczenie_gra\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1452712516 d:\zaliczenie_gra\player.h
+	"Tank.h"
+
+1452795898 d:\zaliczenie_gra\spritetext.h
+	"Sprite.h"
+	<string>
+
+1452619704 source:d:\zaliczenie_gra\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1445262144 source:d:\zaliczenie_gra\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615434 source:d:\zaliczenie_gra\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1452795898 source:d:\zaliczenie_gra\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1445868892 source:d:\zaliczenie_gra\tank.cpp
+	"Tank.h"
+
+1453107764 source:d:\zaliczenie_gra\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1444657040 source:d:\zaliczenie_gra\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1453066588 source:f:\zaliczenie_gra\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1452533072 f:\zaliczenie_gra\bullet.h
+	"Entity.h"
+
+1452549496 f:\zaliczenie_gra\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115676 f:\zaliczenie_gra\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1452548270 f:\zaliczenie_gra\float2.h
+	<math.h>
+
+1444653440 f:\zaliczenie_gra\texture2d.h
+
+1452550604 f:\zaliczenie_gra\componentmanager.h
+	<iostream>
+	<list>
+
+1445257192 f:\zaliczenie_gra\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452535040 f:\zaliczenie_gra\terrain.h
+	<vector>
+	"Sprite.h"
+
+1452795372 f:\zaliczenie_gra\enemy.h
+	"Tank.h"
+
+1445868804 f:\zaliczenie_gra\tank.h
+	"Entity.h"
+
+1452547498 source:f:\zaliczenie_gra\componentmanager.cpp
+	"ComponentManager.h"
+
+1453107776 source:f:\zaliczenie_gra\enemy.cpp
+	<windows.h>
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+
+1452549544 source:f:\zaliczenie_gra\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:f:\zaliczenie_gra\float2.cpp
+	"float2.h"
+
+1453066786 source:f:\zaliczenie_gra\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1452712516 f:\zaliczenie_gra\player.h
+	"Tank.h"
+
+1452795898 f:\zaliczenie_gra\spritetext.h
+	"Sprite.h"
+	<string>
+
+1452619704 source:f:\zaliczenie_gra\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1445258544 source:f:\zaliczenie_gra\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615434 source:f:\zaliczenie_gra\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1452795898 source:f:\zaliczenie_gra\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1445868892 source:f:\zaliczenie_gra\tank.cpp
+	"Tank.h"
+
+1453107764 source:f:\zaliczenie_gra\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1444653440 source:f:\zaliczenie_gra\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
+1453478308 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\bullet.cpp
+	<windows.h>
+	"Bullet.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Enemy.h"
+	"Tank.h"
+
+1452533072 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\bullet.h
+	"Entity.h"
+
+1453485436 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\entity.h
+	"Sprite.h"
+	"ComponentManager.h"
+
+1452115676 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\sprite.h
+	"float2.h"
+	"Texture2D.h"
+
+1453485462 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\float2.h
+	<math.h>
+
+1444657040 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\texture2d.h
+
+1452550604 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\componentmanager.h
+	<iostream>
+	<list>
+
+1445260792 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\resourcefactory.h
+	<map>
+	"Texture2D.h"
+
+1452535040 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\terrain.h
+	<vector>
+	"Sprite.h"
+
+1453480508 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\enemy.h
+	"Tank.h"
+
+1445868804 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\tank.h
+	"Entity.h"
+
+1452547498 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\componentmanager.cpp
+	"ComponentManager.h"
+
+1453480508 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\enemy.cpp
+	<windows.h>
+	"Enemy.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"Bullet.h"
+	"Entity.h"
+	"Tank.h"
+
+1453478760 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\entity.cpp
+	<iostream>
+	"Entity.h"
+
+1447082710 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\float2.cpp
+	"float2.h"
+
+1453481540 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\main.cpp
+	<windows.h>
+	<gl/glut.h>
+	<iostream>
+	<sstream>
+	"Sprite.h"
+	"Enemy.h"
+	"Player.h"
+	"Bullet.h"
+	"ComponentManager.h"
+	"ResourceFactory.h"
+	"Terrain.h"
+	"SpriteText.h"
+
+1452712516 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\player.h
+	"Tank.h"
+
+1452795898 c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\spritetext.h
+	"Sprite.h"
+	<string>
+
+1452619704 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\player.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Player.h"
+	"Terrain.h"
+	"ResourceFactory.h"
+	"Bullet.h"
+	<math.h>
+
+1445262144 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\resourcefactory.cpp
+	<iostream>
+	"ResourceFactory.h"
+
+1452615434 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\sprite.cpp
+	<windows.h>
+	<gl/gl.h>
+	"Sprite.h"
+
+1452795898 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\spritetext.cpp
+	<gl/gl.h>
+	<sstream>
+	"SpriteText.h"
+
+1445868892 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\tank.cpp
+	"Tank.h"
+
+1453107764 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\terrain.cpp
+	"Terrain.h"
+	<windows.h>
+	<gl/gl.h>
+	<fstream>
+	<iostream>
+	"Player.h"
+	"Enemy.h"
+	"ResourceFactory.h"
+
+1444657040 source:c:\users\kasia\desktop\in퓓nieria_oprogramowania_ii\zaliczenie_gra\texture2d.cpp
+	<windows.h>
+	<gl/glu.h>
+	<iostream>
+	<fstream>
+	"Texture2D.h"
+
